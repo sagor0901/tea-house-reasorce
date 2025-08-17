@@ -6,6 +6,7 @@
     <title>tea-house-project</title>
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <!-- font awsome -->
     <link
       rel="stylesheet"
@@ -15,8 +16,44 @@
       referrerpolicy="no-referrer"
     />
     <!-- google font  -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>hi</h1>
+  <body class="manrope-font">
+    <!-- bannner section start here  -->
+    <header
+      class="parent-container max-w-[1250px] min-h-[200px] container mx-auto flex flex-col md:flex-row justify-between items-center"
+    >
+      <div class="left-div">
+        <h1 class="text-6xl">
+          It's good <br />
+          tea time at The <br />
+          Tea House
+        </h1>
+        <p class="text-lg my-10">
+          Tea and Botanical Solutions Supplier Give Optimum <br />
+          Satisfaction To Your Taste Buds.
+        </p>
+        <button
+          class="bg-gradient-to-l from-[#ff8938] to-[#ff0000] px-6 py-4 rounded-lg"
+        >
+          Explore More
+          <span class=""
+            ><i class="fa-solid -rotate-45 fa-arrow-right"></i
+          ></span>
+        </button>
+      </div>
+      <div class="right-div relative">
+        <img class="relative top-[100px]" src="./images/banner.png" alt="" />
+        <div
+          class="flex absolute left-[100px] items-center w-[255px] h-[100px] bg-white rounded-lg shadow-md px-2"
+        >
+          <span class="mr-4 text-2xl"><i class="fa-solid fa-star"></i></span>
+          <div>
+            <p class="text-2xl font-bold">5.00</p>
+            <p class="text-lg font-medium">Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
